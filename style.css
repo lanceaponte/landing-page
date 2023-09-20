@@ -4,6 +4,11 @@ body {
     flex-direction: column;
 }
 
+
+.title-img-placeholder{
+    background-color:gray;
+}
+
 .banner-container,
 .footer {
     background-color: #1F2837;
@@ -12,6 +17,7 @@ body {
 .banner-container {
 
     display: flex;
+    flex-direction: column;
 }
 
 .header-logo {
@@ -27,15 +33,20 @@ body {
     color: #E5E7EB;
 }
 
+.nav-link{
+    padding: 10px;
+}
+
 h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-
+    margin: 0px;
 }
 
 ul {
     list-style-type: none;
+    display: flex;
 }
 
 .sign-up-button {
@@ -62,4 +73,23 @@ h2 {
 .sign-up-banner{
     background-color: #3882F6;
     color: #F9FAF8;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:0 100px;
+}
+
+.title-container{
+    display: flex;
+    justify-content: space-between;
+    padding:0 100px;
+    margin-bottom: 30px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
 }
